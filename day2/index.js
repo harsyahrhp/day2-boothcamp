@@ -47,9 +47,24 @@ const arrpal = palindrome.split('')
 //     }
 // }
 
-let fruitss = [['jeruk', 'mangga', 'pisang', 'anggur']];
-for(let i=0; i<fruitss.length; i++){
-    for(let j=0; j<fruitss[i].length; j++){
-        console.log(fruitss[i][j], fruitss[i][j].length)
-    }
+// let fruitss = [['jeruk', 'mangga', 'pisang', 'anggur']];
+// for(let i=0; i<fruitss.length; i++){
+//     for(let j=0; j<fruitss[i].length; j++){
+//         console.log(fruitss[i][j], fruitss[i][j].length)
+//     }
+// }
+
+
+let alat = {
+    'sapu': 'sapu',
+    'pel': 'pel',
+    'raga': 'barbel'
 }
+
+let result= {
+    alat : [],
+    raga : []
+}
+
+result.alat.push(alat.sapu)
+console.log(result)
